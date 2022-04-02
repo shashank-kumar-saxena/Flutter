@@ -8,14 +8,18 @@ import 'package:flutter/material.dart';
 // }
 void test() {
   // ignore: prefer_const_declarations
-  final name = 'foo';
-  if (name == 'foo') {
-    // ignore: avoid_print
-    print("Yes it's is foo❤️❤️");
-  } else {
-    // ignore: avoid_print
-    print("No it is not foo😢😢");
-  }
+  // final name = 'foo';
+  // if (name == 'foo') {
+  //   // ignore: avoid_print
+  //   print("Yes it's is foo❤️❤️");
+  // } else {
+  //   // ignore: avoid_print
+  //   print("No it is not foo😢😢");
+  //}
+  // ignore: prefer_const_declarations
+  final n = "💕💕💕💕💕💕";
+  // ignore: unused_local_variable, avoid_print
+  print(n * 1000);
 }
 
 void main() {
