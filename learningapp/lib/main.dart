@@ -11,7 +11,7 @@ void test() {
   final name = 'foo';
   if (name == 'foo') {
     // ignore: avoid_print
-    print("Yes it is foo❤️❤️");
+    print("Yes it's is foo❤️❤️");
   } else {
     // ignore: avoid_print
     print("No it is not foo😢😢");
