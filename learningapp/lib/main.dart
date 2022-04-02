@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 String getFullName(String firstName, String lastName) {
-  return '$firstName $lastName';
+  num n = 10;
+  bool b = true;
+  return '$firstName $lastName $n $b';
 }
 
 void main() {
