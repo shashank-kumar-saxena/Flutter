@@ -1,10 +1,21 @@
 import 'package:flutter/material.dart';
 
-String getFullName(String firstName, String lastName) {
-  num n = 10;
-  bool b = true;
-  List<int> l = [1, 2, 3, 4, 5];
-  return '$firstName $lastName $n $b $l';
+// String getFullName(String firstName, String lastName) {
+//   num n = 10;
+//   bool b = true;
+//   List<int> l = [1, 2, 3, 4, 5];
+//   return '$firstName $lastName $n $b $l';
+// }
+void test() {
+  // ignore: prefer_const_declarations
+  final name = 'foo';
+  if (name == 'foo') {
+    // ignore: avoid_print
+    print("Yes it is foo❤️❤️");
+  } else {
+    // ignore: avoid_print
+    print("No it is not foo😢😢");
+  }
 }
 
 void main() {
@@ -17,9 +28,8 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    // ignore: avoid_print
-    print(getFullName('Shashank', 'Saxena'));
-
+//    print(getFullName('Shashank', 'Saxena'));
+    test();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
