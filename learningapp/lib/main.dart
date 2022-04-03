@@ -17,9 +17,9 @@ void test() {
   //   print("No it is not foo😢😢");
   //}
   // ignore: prefer_const_declarations
-  final n = "💕💕💕💕💕💕";
+  //final n = "💕💕💕💕💕💕";
   // ignore: unused_local_variable, avoid_print
-  print(n * 1000);
+  //print(n * 1000);
 }
 
 void main() {
