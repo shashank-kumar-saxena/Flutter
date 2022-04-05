@@ -11,10 +11,10 @@ void test() {
   // final name = 'foo';
   // if (name == 'foo') {
   //   // ignore: avoid_print
-  //   print("Yes it's is foo❤️❤️");
+  //   print("Yes it's is foo");
   // } else {
   //   // ignore: avoid_print
-  //   print("No it is not foo😢😢");
+  //   print("No it is not foo");
   //}
   // ignore: prefer_const_declarations
   //final n = "💕💕💕💕💕💕";
