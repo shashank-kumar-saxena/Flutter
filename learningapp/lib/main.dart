@@ -6,20 +6,53 @@ import 'package:flutter/material.dart';
 //   List<int> l = [1, 2, 3, 4, 5];
 //   return '$firstName $lastName $n $b $l';
 // }
+//void test() {
+// ignore: prefer_const_declarations
+// final name = 'foo';
+// if (name == 'foo') {
+//   // ignore: avoid_print
+//   print("Yes it's is foo");
+// } else {
+//   // ignore: avoid_print
+//   print("No it is not foo");
+//}
+// ignore: prefer_const_declarations
+//final n = "💕💕💕💕💕💕";
+// ignore: unused_local_variable, avoid_print
+//print(n * 1000);
+//}
+//Sets example
+// void test() {
+//   //It's a example of sets in flutter in which you can define unique set of things
+//   final name = {'foo', 'bar', 'boo'};
+//   name.add('foo');
+//   name.add('bunny');
+//   // ignore: avoid_print
+//   print(name);
+// }
+
+//Map in dart
+// void test() {
+//   // ignore: unused_local_variable
+//   var nm = {
+//     'name': 'bunny',
+//     'age': 18,
+//   };
+//   // ignore: avoid_print
+//   print(nm);
+//   print(nm['name']);
+// }
+//Sound null Safty
 void test() {
-  // ignore: prefer_const_declarations
-  // final name = 'foo';
-  // if (name == 'foo') {
-  //   // ignore: avoid_print
-  //   print("Yes it's is foo");
-  // } else {
-  //   // ignore: avoid_print
-  //   print("No it is not foo");
-  //}
-  // ignore: prefer_const_declarations
-  //final n = "💕💕💕💕💕💕";
-  // ignore: unused_local_variable, avoid_print
-  //print(n * 1000);
+  String? name = null;
+  name = "bunny";
+  print(name);
+  name = null;
+  print(name);
+//List
+  //List<String>? nm = ['foo', 'bar', 'boo', null];//Show error;
+  List<String?>? nm = ['foo', 'bar', 'boo', null];
+  print(nm);
 }
 
 void main() {
